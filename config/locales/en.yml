@@ -1,0 +1,42 @@
+en:
+  carnival_devise:
+    confirmations:
+      new: Resend confirmation instructions
+    user: User
+    mailer:
+      welcome: Welcome
+      hello: Hello
+      confirm_message: You can confirm your email account the link below 
+      confirm_account: Confirm my account
+      change_message: Someone has requested a link to change your password. You can do this through the link below
+      change: Change my Password
+      ignore: If you didn't request this, please ignore this email
+      wont_change: Your password won't change until you access the link above and create a new one
+      attempts: Your account has been locked due to an excessive number of unsuccessful sign in attempts
+      unlock_message: Click the link below to unlock your account
+      unlock: Unlock my account
+    passwords:
+      new: New password
+      confirm: Confirm new password
+      change_message: Change your password
+      forgot: Forgot your password
+      send_reset_instruction: Send me reset password instructions
+      change: Change my password
+    registrations:
+      edit: Edit
+      blank_message: leave blank if you don't want to change it
+      confirm: we need your current password to confirm your changes
+      update: Update
+      cancel: Cancel my account
+    back: Back
+    sign_up: Sign up
+    new:
+      email: Email
+      password: Password
+      login_btn: Login
+      remember_me: Remember me
+    shared:
+      enter: Enter
+      register: Register
+      forgot: Forgot my password
+      omni: Login with

@@ -1,0 +1,42 @@
+pt-BR:
+  carnival_devise:
+    user: Usuário
+    confirmations:
+      new: Reenviar instruções de confirmação
+    mailer:
+      welcome: Bem Vindo
+      hello: Oi
+      confirm_message: Você pode confirmar a sua conta de email atravéd do link abaixo 
+      confirm_account: Confirme a minha conta
+      change_message: Alguém solicitou um link para alterar a sua senha. Você pode fazer isso através do link abaixo
+      change: Mudar a minha senha
+      ignore: Se você não solicitou isso, Por favor ignorar esse email
+      wont_change: Sua senha não irá mudar até que você acesse o link abaixo e crie uma nova
+      attempts: Sua conta foi bloqueada devido a um numero excessivo de tentativas sem sucesso
+      unlock_message: Clique no link abaixo para desbloquear a sua conta
+      unlock: Desbloquear a minha conta
+    passwords:
+      new: Nova senha
+      confirm: Confime nova senha
+      change_message: Alterar sua senha
+      forgot: Esqueci minha senha
+      send_reset_instruction: Me envie as instruções de resetar senha
+      change: Alterar minha senha
+    registrations:
+      edit: Editar
+      blank_message: deixe em branco se você não quiser alterar isso
+      confirm: nós precisamos da sua senha atual para confirmar as mudanças
+      update: Atualizar
+      cancel: Cancelar minha conta
+    back: Voltar
+    sign_up: Sign up
+    new:
+      email: Email
+      password: Senha
+      login_btn: Entrar
+      remember_me: Permanecer conectado
+    shared:
+      enter: Entrar
+      register: Registrar
+      forgot: Esqueci minha senha
+      omni: Logar com

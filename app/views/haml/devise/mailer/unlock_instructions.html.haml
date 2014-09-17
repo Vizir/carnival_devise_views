@@ -1,0 +1,11 @@
+%p
+  = t('carnival_devise.mailer.hello')
+  = @resource.email
+  \!
+%p
+  = t('carnival_devise.mailer.attempts')
+  \.
+%p
+  = t('carnival_devise.mailer.unlock_message')
+  \:
+%p= link_to t('carnival_devise.mailer.unlock'), unlock_url(@resource, :unlock_token => @token)

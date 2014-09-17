@@ -2,6 +2,7 @@ module CarnivalDeviseViews
   module Generators
     class InstallGenerator < Rails::Generators::Base
       desc "Install Carnival devise View"
+      source_root File.expand_path("../../templates", __FILE__)
 
       def copy_views
         if options.haml?
@@ -12,8 +13,8 @@ module CarnivalDeviseViews
       end
 
       def copy_locale
-        copy_file "../../../config/locales/pt-BR.yml", "config/locales/devise.safeguard.pt-BR.yml"
-        copy_file "../../../config/locales/en.yml", "config/locales/devise.safeguard.en.yml"
+        copy_file "../../../config/locales/pt-BR.yml", "config/locales/devise.carnival.pt-BR.yml"
+        copy_file "../../../config/locales/en.yml", "config/locales/devise.carnival.en.yml"
       end
 
 
