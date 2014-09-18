@@ -9,9 +9,9 @@ module CarnivalDeviseViews
 
       def copy_views
         if options.haml?
-          directory '../../../app/views/haml/devise', "app/views/#{folder_name}"
+          views_directory '../../../app/views/haml/devise'
         else
-          directory '../../../app/views/erb/devise', "app/views/#{folder_name}"
+          views_directory '../../../app/views/erb/devise'
         end
       end
 
@@ -27,6 +27,14 @@ module CarnivalDeviseViews
         else
           copy_file '../../../app/assets/stylesheets/carnival_devise_views.css', 'app/assets/stylesheets/carnival_devise_views.css'
         end
+      end
+
+      private
+      def views_directory source
+        directory source, "app/views/#{folder_name}" do |content|
+          content.gsub 'devise/shared/links', "#{folder_name}/shared/links"
+        end
+        
       end
     end
   end
