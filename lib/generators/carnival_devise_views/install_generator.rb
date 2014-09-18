@@ -3,12 +3,15 @@ module CarnivalDeviseViews
     class InstallGenerator < Rails::Generators::Base
       desc "Install Carnival devise View"
       source_root File.expand_path("../../templates", __FILE__)
+      class_option :haml, :type => :boolean, :default => false, :description => "Haml views"
+      class_option :sass, :type => :boolean, :default => false, :description => "Sass Css"
+      argument :folder_name, :type => :string, :default => "devise"
 
       def copy_views
         if options.haml?
-          directory '../../../app/views/haml/devise', 'app/views/devise'
+          directory '../../../app/views/haml/devise', "app/views/#{folder_name}"
         else
-          directory '../../../app/views/haml/devise', 'app/views/devise'
+          directory '../../../app/views/erb/devise', "app/views/#{folder_name}"
         end
       end
 

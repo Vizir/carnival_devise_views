@@ -1,6 +1,6 @@
 # CarnivalDeviseViews
 
-TODO: Write a gem description
+Generate Devise Views for Carnival applications
 
 ## Installation
 
@@ -19,8 +19,15 @@ Or install it yourself as:
     $ gem install carnival_devise_views
 
 ## Usage
+    $ rails g carnival_devise_views:install
 
-TODO: Write usage instructions here
+## Options
+### Haml Views
+    $ rails g carnival_devise_views:install --haml
+
+### Sass
+    $ rails g carnival_devise_views:install --sass
+
 
 ## Contributing
 
