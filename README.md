@@ -22,6 +22,9 @@ Or install it yourself as:
     $ rails g carnival_devise_views:install
 
 ## Options
+### Folder Name
+    $ rails g carnival_devise_views:install admin_user
+
 ### Haml Views
     $ rails g carnival_devise_views:install --haml
 
