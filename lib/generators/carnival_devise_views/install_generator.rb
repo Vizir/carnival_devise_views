@@ -29,6 +29,10 @@ module CarnivalDeviseViews
         end
       end
 
+      def copy_fonts
+        directory  '../../../app/assets/images/', 'app/assets/images/'
+      end
+
       private
       def views_directory source
         directory source, "app/views/#{folder_name}" do |content|
