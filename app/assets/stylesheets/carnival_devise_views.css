@@ -224,7 +224,6 @@ input::-webkit-inner-spin-button {
 
 .login-container .sign_up{
   margin: 10px 0px 0px 0px;
-  float: left;
   width: 100%;
 }
 
@@ -233,7 +232,7 @@ input::-webkit-inner-spin-button {
   width: 100%;
 }
 
-.login-container .sign_up a, .login-container .forgot_password a{
+.login-container .sign_up a, .login-container .forgot_password a, .sign_in a{
   text-decoration: none;
   opacity: 0.6;
 }
@@ -252,4 +251,8 @@ input::-webkit-inner-spin-button {
 .login-container .button:hover{
   background: #007ae1;
   color: #fff; 
+}
+
+.edit-user form{
+  margin-top: -250px; 
 }
