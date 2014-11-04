@@ -7,6 +7,6 @@
     %div
       = f.password_field :password, :placeholder => t('carnival_devise.new.password')
     %div
-      = f.password_field :password_confirmation, :placeholder => 'Password Confirmation'
+      = f.password_field :password_confirmation, :placeholder => t('carnival_devise.new.password_confirmation')
     %div= f.submit t('carnival_devise.sign_up'), :class => "button"
     = render "devise/shared/links"

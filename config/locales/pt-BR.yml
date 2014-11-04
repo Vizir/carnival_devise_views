@@ -33,6 +33,7 @@ pt-BR:
     new:
       email: Email
       password: Senha
+      password_confirmation: Confirmação de Senha
       login_btn: Entrar
       remember_me: Permanecer conectado
     shared:
