@@ -23,7 +23,7 @@ module CarnivalDeviseViews
 
       def copy_assets
         if options.sass?
-          copy_file '../../../app/assets/stylesheets/carnival_devise_views.sass', 'app/assets/stylesheets/carnival_devise_views.sass'
+          copy_file '../../../app/assets/stylesheets/carnival_devise_views.scss', 'app/assets/stylesheets/carnival_devise_views.scss'
         else
           copy_file '../../../app/assets/stylesheets/carnival_devise_views.css', 'app/assets/stylesheets/carnival_devise_views.css'
         end
