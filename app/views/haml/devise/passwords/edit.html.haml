@@ -1,3 +1,4 @@
+= stylesheet_link_tag "carnival_devise_views", :media => "all"
 .login-container
   %h2= t('carnival_devise.passwords.change_message')
   = form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :put }) do |f|
