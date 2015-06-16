@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: 'OpenSansRegular';
-  src: url('fonts/opensans-regular-webfont.eot');
-  src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/opensans-regular-webfont.woff') format('woff'),
-       url('fonts/opensans-regular-webfont.ttf') format('truetype'),
-       url('fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+  src: url('assets/carnival/opensans-regular-webfont.eot');
+  src: url('assets/carnival/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('assets/carnival/opensans-regular-webfont.woff') format('woff'),
+       url('assets/carnival/opensans-regular-webfont.ttf') format('truetype'),
+       url('assets/carnival/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OpenSansSemibold';
-  src: url('fonts/opensans-semibold-webfont.eot');
-  src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/opensans-semibold-webfont.woff') format('woff'),
-       url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
-       url('fonts/opensans-semibold-webfont.svg#OpenSansSemibold') format('svg');
+  src: url('assets/carnival/opensans-semibold-webfont.eot');
+  src: url('assets/carnival/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('assets/carnival/opensans-semibold-webfont.woff') format('woff'),
+       url('assets/carnival/opensans-semibold-webfont.ttf') format('truetype'),
+       url('assets/carnival/opensans-semibold-webfont.svg#OpenSansSemibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -250,9 +250,9 @@ input::-webkit-inner-spin-button {
 
 .login-container .button:hover{
   background: #007ae1;
-  color: #fff; 
+  color: #fff;
 }
 
 .edit-user form{
-  margin-top: -250px; 
+  margin-top: -250px;
 }
