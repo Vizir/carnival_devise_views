@@ -30,7 +30,7 @@ module CarnivalDeviseViews
       end
 
       def copy_fonts
-        directory  '../../../app/assets/images/', 'app/assets/images/'
+        directory  '../../../app/assets/fonts/', 'app/assets/fonts/'
       end
 
       private
@@ -38,7 +38,7 @@ module CarnivalDeviseViews
         directory source, "app/views/#{folder_name}" do |content|
           content.gsub 'devise/shared/links', "#{folder_name}/shared/links"
         end
-        
+
       end
     end
   end
